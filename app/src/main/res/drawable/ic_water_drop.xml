@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <group
+        android:name="dropGroup"
+        android:translateY="0">
+        <path
+            android:name="dropPath"
+            android:fillColor="#3A8DFF"
+            android:fillAlpha="1.0"
+            android:pathData="M12,2C12,2 5,10 5,15A7,7 0 0 0 19,15C19,10 12,2 12,2Z"/>
+    </group>
+
+</vector>

@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Left Leaf -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M12,22C12,22 3,18.5 3,12C3,8.5 5.5,6 8,6C9.5,6 11,7 12,8.5" />
+    
+    <!-- Right Leaf -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M12,22C12,22 21,18.5 21,12C21,8.5 18.5,6 16,6C14.5,6 13,7 12,8.5" />
+
+    <!-- Droplet Group for Animation -->
+    <group android:name="dropletGroup">
+        <path
+            android:name="droplet"
+            android:fillColor="#2196F3"
+            android:pathData="M12,2C12,2 9,5.5 9,7.5C9,9.2 10.3,10.5 12,10.5C13.7,10.5 15,9.2 15,7.5C15,5.5 12,2 12,2Z" />
+    </group>
+</vector>

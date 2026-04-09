@@ -1,0 +1,6 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_leaf_drop">
+    <target
+        android:name="dropletGroup"
+        android:animation="@animator/leaf_drop_animator" />
+</animated-vector>
