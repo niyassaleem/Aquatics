@@ -19,9 +19,9 @@ const char* ssid     = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 
 // HiveMQ Cloud Broker
-const char* mqtt_server = "e5cd970367924076ba08be31e69e4301.s1.eu.hivemq.cloud";
-const int   mqtt_port   = 8883; 
-const char* mqtt_user   = "Niyas24";
+const char* mqtt_server = "YOUR_MQTT_URL";
+const int   mqtt_port   = YOUR_MQTT_PORT; 
+const char* mqtt_user   = "YOUR_MQTT_USERNAME";
 const char* mqtt_pass   = "YOUR_MQTT_PASSWORD";
 
 // Hardware Failsafes (Safety Limits)
